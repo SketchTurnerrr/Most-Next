@@ -47,17 +47,17 @@ export default function Home() {
               <div className='mt-5 mb-2 text-4xl font-semibold md:mt-0'>
                 {t('WHERE')}?
               </div>
-              <div className='font-medium text-gray-500'>{t('WHEREL')}</div>
+              <div className='font-medium text-gray-600'>{t('WHEREL')}</div>
               <div className='mt-5 mb-2 text-4xl font-semibold'>
                 {t('WHEN')}?
               </div>
-              <div className='font-medium text-gray-500'>
+              <div className='font-medium text-gray-600'>
                 {t('EVERY_SUNDAY')}
               </div>
               <div className='mt-5 mb-2 text-4xl font-semibold'>
                 {t('CONTACT')}
               </div>
-              <div className='font-medium text-gray-500'>narekbc@gmail.com</div>
+              <div className='font-medium text-gray-600'>narekbc@gmail.com</div>
             </div>
 
             {/* <--Google Map --> */}
@@ -65,6 +65,7 @@ export default function Home() {
             <div className='md:flex-grow'>
               <iframe
                 className='w-full my-8 md:my-0'
+                title='google map'
                 src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1732.903967411718!2d33.41277443250386!3d47.94599268689437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dadf8bb7a6beb9%3A0x56378ced765fcdec!2z0KXQsNGA0YbQuNC30YzQutCwINCy0YPQu9C40YbRjywgMTg4LCDQmtGA0LjQstC40Lkg0KDRltCzLCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNTAwMDA!5e0!3m2!1suk!2sua!4v1630130946495!5m2!1suk!2sua'
                 height='300'
                 style={{ border: 0 }}
@@ -96,7 +97,7 @@ export default function Home() {
                 <div className='mt-5 text-xl font-semibold'>
                   {t('latest_title')}
                 </div>
-                <div className='mt-2 font-medium text-gray-500'>
+                <div className='mt-2 font-medium text-gray-600'>
                   {t('OCTOBER')} 3, 2021
                 </div>
 
