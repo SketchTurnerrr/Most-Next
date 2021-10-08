@@ -4,33 +4,21 @@ import Head from 'next/head';
 import Layout from '../components/Layout';
 import Track from '../components/Tracks/Track';
 import { useEffect, useState } from 'react';
-import { API_URL } from '../config/index';
+// import { API_URL } from '../config/index';
+import Sermons from '../components/Tracks/sermons.json';
 import SkeletonTrack from '../components/Tracks/SkeletonTrack';
 
 const Listen = () => {
   const { t } = useTranslation('sermons');
-  const [sermons, setSermons] = useState([]);
+  const [sermons, setSermons] = useState([Sermons]);
   const [isLoading, setLoading] = useState(true);
   const [disable, setDisable] = useState(false);
   const [tracksPerPage, setTracksPerPage] = useState(5);
 
   useEffect(() => {
-    const fetchSermons = async () => {
-      const response = await fetch(`${API_URL}/api/sermons`);
-
-      if (!response.ok) {
-        const message = `An error has occured: ${response.status}`;
-        throw new Error(message);
-      }
-
-      const sermons = await response.json();
-      setSermons(sermons);
-      setLoading(false);
-    };
-
-    fetchSermons();
+    setSermons(Sermons);
+    setLoading(false);
   }, []);
-
   const indexOfLastPost = 1 * tracksPerPage;
   const indexOfFirstPost = indexOfLastPost - tracksPerPage;
   const currentAmount = sermons.slice(indexOfFirstPost, indexOfLastPost);
