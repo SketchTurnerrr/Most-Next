@@ -102,7 +102,7 @@
           "url": "https://archive.org/download/2021-01-03_202110/2021_01_03.mp3",
           "dayYear": "3, 2021",
           "month": "JANUARY",
-          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672807/Christmas_Thumbnail_2_pips9n.png"
         },
         {
           "id": "2",
@@ -110,7 +110,7 @@
           "url": "https://archive.org/download/2020-12-27/2020_12_27.mp3",
           "dayYear": "27, 2020",
           "month": "DECEMBER",
-          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672807/Christmas_Thumbnail_2_pips9n.png"
         },
         {
           "id": "3",
@@ -118,7 +118,7 @@
           "url": "https://archive.org/download/2020-12-20_20201230/2020_12_20.mp3",
           "dayYear": "20, 2020",
           "month": "DECEMBER",
-          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672807/Christmas_Thumbnail_2_pips9n.png"
         },
         {
           "id": "4",
@@ -126,7 +126,7 @@
           "url": "https://archive.org/download/2020-12-13_20201230/2020_12_13.mp3",
           "dayYear": "13, 2020",
           "month": "DECEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672807/Christmas_Thumbnail_2_pips9n.png"
         },
         {
           "id": "5",
@@ -134,7 +134,7 @@
           "url": "https://archive.org/download/2020-12-06_20201230/2020_12_06.mp3",
           "dayYear": "6, 2020",
           "month": "DECEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672807/Christmas_Thumbnail_2_pips9n.png"
         },
         {
           "id": "6",
@@ -142,7 +142,7 @@
           "url": "https://archive.org/download/2020-11-29_20201230/2020_11_29.mp3",
           "dayYear": "29, 2020",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "7",
@@ -150,7 +150,7 @@
           "url": "https://archive.org/download/nov-22/Nov22.mp3",
           "dayYear": "22, 2020",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "8",
@@ -158,7 +158,7 @@
           "url": "https://archive.org/download/nov-15/Nov15.mp3",
           "dayYear": "15, 2020",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "9",
@@ -166,7 +166,7 @@
           "url": "https://archive.org/download/john-4/John4.mp3",
           "dayYear": "8, 2020",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "10",
@@ -174,7 +174,7 @@
           "url": "https://archive.org/download/john-3-p-2_202011/John3_p2.mp3",
           "dayYear": "1, 2020",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "11",
@@ -182,7 +182,7 @@
           "url": "https://archive.org/download/john-3_202011/John3.mp3",
           "dayYear": "25, 2020",
           "month": "OCTOBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "12",
@@ -190,7 +190,7 @@
           "url": "https://archive.org/download/john-3-p-2_202011/John3_p2.mp3",
           "dayYear": "18, 2020",
           "month": "OCTOBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "13",
@@ -198,7 +198,7 @@
           "url": "https://archive.org/download/john-2_202011/John2.ogg",
           "dayYear": "11, 2020",
           "month": "OCTOBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "14",
@@ -206,7 +206,7 @@
           "url": "https://archive.org/download/john-p-3/John_p3.ogg",
           "dayYear": "4, 2020",
           "month": "OCTOBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "15",
@@ -214,7 +214,7 @@
           "url": "https://archive.org/download/john-1-p-2/John_1_p2.ogg",
           "dayYear": "27, 2020",
           "month": "SEPTEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "16",
@@ -222,7 +222,7 @@
           "url": "https://archive.org/download/john-1_20201109/John_1.ogg",
           "dayYear": "20, 2020",
           "month": "SEPTEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "17",
@@ -230,7 +230,7 @@
           "url": "https://archive.org/download/john-intro/John%20intro.ogg",
           "dayYear": "13, 2020",
           "month": "SEPTEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg"
         },
         {
           "id": "18",
@@ -238,7 +238,7 @@
           "url": "https://archive.org/download/405-0343/405_0343.ogg",
           "dayYear": "6, 2020",
           "month": "SEPTEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "19",
@@ -246,7 +246,7 @@
           "url": "https://archive.org/download/405-0342/405_0342.ogg",
           "dayYear": "30, 2020",
           "month": "AUGUST",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "20",
@@ -254,7 +254,7 @@
           "url": "https://archive.org/download/405-0341/405_0341.ogg",
           "dayYear": "23, 2020",
           "month": "AUGUST",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "21",
@@ -262,7 +262,7 @@
           "url": "https://archive.org/download/405-0340/405_0340.ogg",
           "dayYear": "16, 2020",
           "month": "AUGUST",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "22",
@@ -270,7 +270,7 @@
           "url": "https://archive.org/download/405-0339/405_0339.ogg",
           "dayYear": "9, 2020",
           "month": "AUGUST",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "23",
@@ -278,7 +278,7 @@
           "url": "https://archive.org/download/405-0338/405_0338.ogg",
           "dayYear": "2, 2020",
           "month": "AUGUST",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "24",
@@ -286,7 +286,7 @@
           "url": "https://archive.org/download/405-0337/405_0337.ogg",
           "dayYear": "26, 2020",
           "month": "JULY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "25",
@@ -294,7 +294,7 @@
           "url": "https://archive.org/download/405-0336/405_0336.ogg",
           "dayYear": "19, 2020",
           "month": "JULY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "26",
@@ -302,7 +302,7 @@
           "url": "https://archive.org/download/405-0335/405_0335.ogg",
           "dayYear": "12, 2020",
           "month": "JULY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "27",
@@ -310,7 +310,7 @@
           "url": "https://archive.org/download/405-0334/405_0334.ogg",
           "dayYear": "5, 2020",
           "month": "JULY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "28",
@@ -318,7 +318,7 @@
           "url": "https://archive.org/download/405-0333/405_0333.ogg",
           "dayYear": "21, 2020",
           "month": "JUNE",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "29",
@@ -326,7 +326,7 @@
           "url": "https://archive.org/download/405-0332/405_0332.ogg",
           "dayYear": "14, 2020",
           "month": "JUNE",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "30",
@@ -334,7 +334,7 @@
           "url": "https://archive.org/download/405-0331/405_0331.ogg",
           "dayYear": "15, 2020",
           "month": "MARCH",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "31",
@@ -342,7 +342,7 @@
           "url": "https://archive.org/download/405-0330/405_0330.ogg",
           "dayYear": "8, 2020",
           "month": "MARCH",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "32",
@@ -350,7 +350,7 @@
           "url": "https://archive.org/download/405-0329/405_0329.ogg",
           "dayYear": "1, 2020",
           "month": "MARCH",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "33",
@@ -358,7 +358,7 @@
           "url": "https://archive.org/download/405-0328/405_0328.ogg",
           "dayYear": "23, 2020",
           "month": "FEBRUARY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "34",
@@ -366,7 +366,7 @@
           "url": "https://archive.org/download/405-0327/405_0327.ogg",
           "dayYear": "16, 2020",
           "month": "FEBRUARY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "35",
@@ -374,7 +374,7 @@
           "url": "https://archive.org/download/405-0326/405_0326.ogg",
           "dayYear": "9, 2020",
           "month": "FEBRUARY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "36",
@@ -382,7 +382,7 @@
           "url": "https://archive.org/download/405-0325/405_0325.ogg",
           "dayYear": "2, 2020",
           "month": "FEBRUARY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "37",
@@ -390,7 +390,7 @@
           "url": "https://archive.org/download/405-0324/405_0324.ogg",
           "dayYear": "26, 2020",
           "month": "JANUARY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "38",
@@ -398,7 +398,7 @@
           "url": "https://archive.org/download/405-0323/405_0323.ogg",
           "dayYear": "19, 2020",
           "month": "JANUARY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "39",
@@ -406,7 +406,7 @@
           "url": "https://archive.org/download/405-0322/405_0322.ogg",
           "dayYear": "12, 2020",
           "month": "JANUARY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "40",
@@ -414,7 +414,7 @@
           "url": "https://archive.org/download/405-0321/405_0321.ogg",
           "dayYear": "5, 2020",
           "month": "JANUARY",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "41",
@@ -422,7 +422,7 @@
           "url": "https://archive.org/download/405-0320/405_0320.ogg",
           "dayYear": "29, 2019",
           "month": "DECEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "42",
@@ -430,7 +430,7 @@
           "url": "https://archive.org/download/405-0319/405_0319.ogg",
           "dayYear": "22, 2019",
           "month": "DECEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "43",
@@ -438,7 +438,7 @@
           "url": "https://archive.org/download/405-0318/405_0318.ogg",
           "dayYear": "15, 2019",
           "month": "DECEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "44",
@@ -446,7 +446,7 @@
           "url": "https://archive.org/download/405-0317/405_0317.ogg",
           "dayYear": "8, 2019",
           "month": "DECEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "45",
@@ -454,7 +454,7 @@
           "url": "https://archive.org/download/405-0316/405_0315.ogg",
           "dayYear": "1, 2019",
           "month": "DECEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "46",
@@ -462,7 +462,7 @@
           "url": "https://archive.org/download/405-0315/405_0314.ogg",
           "dayYear": "24, 2019",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "47",
@@ -470,7 +470,7 @@
           "url": "https://archive.org/download/405-0314/405_0313.ogg",
           "dayYear": "17, 2019",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "48",
@@ -478,7 +478,7 @@
           "url": "https://archive.org/download/audio_2019-11-10/audio_2019-11-10.ogg",
           "dayYear": "10, 2019",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "49",
@@ -486,7 +486,7 @@
           "url": "https://archive.org/download/audio_2019-11-03/audio_2019-11-03.ogg",
           "dayYear": "3, 2019",
           "month": "NOVEMBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "50",
@@ -494,7 +494,7 @@
           "url": "https://archive.org/download/405309/405_309.ogg",
           "dayYear": "27, 2019",
           "month": "OCTOBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         },
         {
           "id": "51",
@@ -502,7 +502,7 @@
           "url": "https://archive.org/download/4050307/405_0307.ogg",
           "dayYear": "13, 2019",
           "month": "OCTOBER",
-          "image": "/images/JOHN.jpg"
+          "image": "https://res.cloudinary.com/deprog/image/upload/c_scale,q_50,w_400/v1633672798/General_Thumbnail_bx7efl.png"
         }
     ]
 }
