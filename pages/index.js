@@ -12,6 +12,7 @@ export default function Home() {
         <link rel='icon' href='/favicons/favicon.ico' />
         <meta name='description' content='Bridge Church Kryvyi Rih' />
         <meta name='og:title' content='Bridge Church' />
+        <meta name='og:description' content='Bridge Church Kryvyi Rih' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://www.most-kr.com' />
         <meta property='og:locale:alternate' content='uk_UA' />
