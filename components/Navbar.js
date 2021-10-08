@@ -22,12 +22,12 @@ const Navbar = () => {
             {/* LANGUAGE DIV */}
             <div className='flex items-center'>
               <Link href='/' locale={router.locale === 'ua' ? 'en' : 'en'}>
-                <a className='mx-1 text-sm font-semibold lg:text-base hover:text-gray-500 focus:outline-none'>
+                <a className='mx-2 text-sm font-semibold lg:text-base hover:text-gray-500'>
                   EN
                 </a>
               </Link>
               <Link href='/' locale={router.locale === 'en' ? 'ua' : 'ua'}>
-                <a className='mx-1 text-sm font-semibold lg:text-base hover:text-gray-500 focus:outline-none'>
+                <a className='mx-2 text-sm font-semibold lg:text-base hover:text-gray-500'>
                   UA
                 </a>
               </Link>
