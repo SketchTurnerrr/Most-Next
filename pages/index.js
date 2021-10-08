@@ -9,11 +9,51 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicons/favicon.ico' />
         <meta name='description' content='Bridge Church Kryvyi Rih' />
         <meta name='og:title' content='Bridge Church' />
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://www.most-kr.com' />
+        <meta property='og:locale:alternate' content='uk_UA' />
+        <meta property='og:image:type' content='image/jpg' />
+        <meta
+          property='og:image'
+          content='https://res.cloudinary.com/deprog/image/upload/c_scale,q_61,w_1200/v1633698917/main_rhzsro.jpg'
+        />
+
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/favicons/apple-touch-icon.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/favicons/favicon-32x32.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='16x16'
+          href='/favicons/favicon-16x16.png'
+        />
+        <link rel='manifest' href='/favicons/site.webmanifest' />
+        <link
+          rel='mask-icon'
+          href='/favicons/safari-pinned-tab.svg'
+          color='#5bbad5'
+        />
+        <link rel='shortcut icon' href='/favicons/favicon.ico' />
+        <meta name='msapplication-TileColor' content='#da532c' />
+        <meta
+          name='msapplication-config'
+          content='/favicons/browserconfig.xml'
+        />
+        <meta name='theme-color' content='#ffffff' />
         <title>{t('BC')}</title>
       </Head>
+
       {/* <-- Hero --> */}
       <section className='relative flex items-center content-center justify-center h-screen'>
         <div
@@ -81,6 +121,7 @@ export default function Home() {
       <div className='container mx-auto'>
         <div className='items-center justify-center pb-4 lg:flex'>
           <div className='w-full lg:flex'>
+            {/* IMAGE */}
             <div
               className='flex-none h-64 overflow-hidden text-center bg-cover rounded-t lg:h-auto lg:w-96 lg:rounded-t-none lg:rounded-l'
               style={{
@@ -89,8 +130,9 @@ export default function Home() {
               }}
               title='Gospel of John poster'
             ></div>
+            {/* RIGHT SIDE DIV */}
             <div className='flex flex-col justify-between p-4 leading-normal bg-white border-b border-l border-r rounded-b md:flex-grow lg:w-md border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light lg:rounded-b-none lg:rounded-r'>
-              <div className='mb-8'>
+              <div className='py-10'>
                 <div className='h-6 mb-8 text-4xl font-bold text-black'>
                   {t('latest')}
                 </div>
