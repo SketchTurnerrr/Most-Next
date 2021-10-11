@@ -30,7 +30,7 @@ const Listen = () => {
       </Head>
       <div className='bg-gradient-to-r from-blue-400 to-pink-300'>
         <h1 className='pb-10 font-bold text-center text-white text-7xl pt-72 text-shadow'>
-          Sunday Sermons
+          {t('SundaySermons')}
         </h1>
       </div>
       {/* if there are tracks - render them */}
@@ -57,7 +57,11 @@ const Listen = () => {
 export async function getServerSideProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['sermons', 'navbar'])),
+      ...(await serverSideTranslations(locale, [
+        'sermons',
+        'navbar',
+        'footer',
+      ])),
     },
   };
 }

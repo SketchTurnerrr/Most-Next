@@ -109,6 +109,7 @@ export const getServerSideProps = async ({ locale }) => ({
       'ministries',
       'navbar',
       'common',
+      'footer',
     ])),
   },
 });
