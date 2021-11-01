@@ -37,7 +37,7 @@ export default function Header() {
         },
         {
           rel: 'manifest',
-          href: '/site.manifest',
+          href: '/public/site.manifest',
         },
       ]}
     />
