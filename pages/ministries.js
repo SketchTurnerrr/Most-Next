@@ -1,9 +1,9 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Layout from '../components/Layout';
+import Layout from '@/components/Layout';
 import Image from 'next/image';
 import Head from 'next/head';
-
+import Header from '@/components/header';
 export default function Ministries() {
   const { t } = useTranslation('ministries');
 
@@ -12,6 +12,7 @@ export default function Ministries() {
       <Head>
         <title>{t('ministries')}</title>
       </Head>
+      <Header />
       <div>
         {/* Sunday DIV*/}
         <div className='max-w-screen-xl pb-8 mx-auto md:py-24 md:px-5'>
@@ -25,7 +26,7 @@ export default function Ministries() {
               />
             </div>
             <div>
-              <h1 className='px-4 py-0 text-4xl font-bold lg:text-7xl'>
+              <h1 className='px-4 py-0 text-4xl font-bold lg:text-7xl lg:pb-8'>
                 {t('SUNDAY_SERV')}
               </h1>
               <p className='max-w-2xl p-4 text-lg'>{t('SUNDAY_P')}</p>
@@ -45,7 +46,7 @@ export default function Ministries() {
               />
             </div>
             <div>
-              <div className='px-4 py-0 text-4xl font-bold lg:text-7xl'>
+              <div className='px-4 py-0 text-4xl font-bold lg:text-7xl lg:pb-8'>
                 {t('TBS')}
               </div>
               <p className='max-w-2xl p-4 text-lg text-gray-800'>
@@ -67,7 +68,7 @@ export default function Ministries() {
               />
             </div>
             <div>
-              <div className='px-4 py-0 text-4xl font-bold lg:text-7xl'>
+              <div className='px-4 py-0 text-4xl font-bold lg:text-7xl lg:pb-8'>
                 {t('SUNDAY_SCHOOL')}
               </div>
               <p className='max-w-2xl p-4 text-lg text-gray-800'>
@@ -89,7 +90,7 @@ export default function Ministries() {
               />
             </div>
             <div>
-              <div className='px-4 py-0 text-4xl font-bold lg:text-7xl'>
+              <div className='px-4 py-0 text-4xl font-bold lg:text-7xl lg:pb-8'>
                 {t('YOUTH')}
               </div>
               <p className='max-w-2xl p-4 text-lg text-gray-800'>

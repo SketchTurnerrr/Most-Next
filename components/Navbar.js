@@ -22,7 +22,7 @@ const Navbar = () => {
               </Link>
             </div>
             {/* LANGUAGE DIV */}
-            <div className='flex items-center'>
+            <div className='flex items-center gap-2'>
               {/* Language SVG */}
               {
                 <svg
@@ -45,7 +45,7 @@ const Navbar = () => {
                       as={asPath}
                       locale={locale}
                     >
-                      <a className='mx-2 text-sm font-semibold lg:text-base hover:text-gray-500'>
+                      <a className='py-4 mx-2 text-sm font-semibold lg:text-base hover:text-gray-500'>
                         {locale.toUpperCase()}
                       </a>
                     </Link>

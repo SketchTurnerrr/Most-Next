@@ -1,8 +1,9 @@
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Layout from '../components/Layout';
+import Layout from '@/components/Layout';
 import Image from 'next/image';
 import Head from 'next/head';
+import Header from '@/components/header';
 
 export default function About() {
   const { t } = useTranslation('about');
@@ -11,6 +12,7 @@ export default function About() {
       <Head>
         <title>{t('about')}</title>
       </Head>
+      <Header />
       <div className='flex items-center justify-center p-5 mx-auto'>
         {/* <div className='p-10'> */}
         <Image

@@ -1,12 +1,12 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Head from 'next/head';
-import Layout from '../components/Layout';
-import Track from '../components/Tracks/Track';
 import { useEffect, useState } from 'react';
-// import { API_URL } from '../config/index';
-import Sermons from '../components/Tracks/sermons.json';
-import SkeletonTrack from '../components/Tracks/SkeletonTrack';
+import Head from 'next/head';
+import Layout from '@/components/Layout';
+import Track from '@/components/Tracks/Track';
+import Sermons from '@/components/Tracks/sermons.json';
+import SkeletonTrack from '@/components/Tracks/SkeletonTrack';
+import Header from '@/components/header';
 
 const Listen = () => {
   const { t } = useTranslation('sermons');
@@ -28,6 +28,8 @@ const Listen = () => {
       <Head>
         <title>{t('sermons')}</title>
       </Head>
+      <Header />
+
       <div className='bg-gradient-to-r from-blue-400 to-pink-300'>
         <h1 className='pb-10 font-bold text-center text-white text-7xl pt-72 text-shadow'>
           {t('SundaySermons')}

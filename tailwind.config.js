@@ -1,7 +1,13 @@
 module.exports = {
   purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'media', // 'media' or 'class'
+
   theme: {
+    fontFamily: {
+      sans: ['Inter', 'system-ui'],
+      serif: ['ui-serif', 'Georgia'],
+    },
+
     extend: {
       backgroundImage: (theme) => ({
         'hero-pattern': "url('/images/main-cover-2.jpg')",

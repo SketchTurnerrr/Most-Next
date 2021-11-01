@@ -1,7 +1,8 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Layout from '../components/Layout';
+import Layout from '@/components/Layout';
 import Head from 'next/head';
+import Header from '@/components/header';
 
 export default function Home() {
   const { t } = useTranslation('common');
@@ -9,52 +10,11 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <link rel='icon' href='/favicons/favicon.ico' />
-        <meta name='description' content='Bridge Church Kryvyi Rih' />
-        <meta name='og:title' content='Bridge Church' />
-        <meta name='og:description' content='Bridge Church Kryvyi Rih' />
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://www.most-kr.com' />
-        <meta property='og:locale:alternate' content='uk_UA' />
-        <meta property='og:image:type' content='image/jpg' />
-        <meta
-          property='og:image'
-          content='https://res.cloudinary.com/deprog/image/upload/c_scale,q_61,w_1200/v1633698917/main_rhzsro.jpg'
-        />
-
-        <link
-          rel='apple-touch-icon'
-          sizes='180x180'
-          href='/favicons/apple-touch-icon.png'
-        />
-        <link
-          rel='icon'
-          type='image/png'
-          sizes='32x32'
-          href='/favicons/favicon-32x32.png'
-        />
-        <link
-          rel='icon'
-          type='image/png'
-          sizes='16x16'
-          href='/favicons/favicon-16x16.png'
-        />
-        <link rel='manifest' href='/favicons/site.webmanifest' />
-        <link
-          rel='mask-icon'
-          href='/favicons/safari-pinned-tab.svg'
-          color='#5bbad5'
-        />
-        <link rel='shortcut icon' href='/favicons/favicon.ico' />
-        <meta name='msapplication-TileColor' content='#da532c' />
-        <meta
-          name='msapplication-config'
-          content='/favicons/browserconfig.xml'
-        />
-        <meta name='theme-color' content='#ffffff' />
         <title>{t('BC')}</title>
+        <meta property='og:locale:alternate' content='uk_UA' />
       </Head>
 
+      <Header />
       {/* <-- Hero --> */}
       <section className='relative flex items-center content-center justify-center h-screen'>
         <div
@@ -119,7 +79,7 @@ export default function Home() {
       </section>
 
       {/* <-- LATEST SERMON --> */}
-      <div className='container mx-auto'>
+      <div className='container px-4 mx-auto'>
         <div className='items-center justify-center pb-4 lg:flex'>
           <div className='w-full lg:flex'>
             {/* IMAGE */}
@@ -134,21 +94,21 @@ export default function Home() {
             {/* RIGHT SIDE DIV */}
             <div className='flex flex-col justify-between p-4 leading-normal bg-white border-b border-l border-r rounded-b md:flex-grow lg:w-md border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light lg:rounded-b-none lg:rounded-r'>
               <div className='py-10'>
-                <div className='h-6 mb-8 text-4xl font-bold text-black'>
+                <div className='h-6 mb-8 text-3xl font-bold text-black'>
                   {t('latest')}
                 </div>
                 <div className='mt-5 text-xl font-semibold'>
                   {t('latest_title')}
                 </div>
                 <div className='mt-2 font-medium text-gray-600'>
-                  {t('OCTOBER')} 3, 2021
+                  {t('OCTOBER')} 31, 2021
                 </div>
 
                 <audio
                   className='w-full mt-5'
                   controls='controls'
                   preload='metadata'
-                  src='https://archive.org/download/2021-10-03_20211007/2021_10_03.mp3'
+                  src='https://archive.org/download/2021-10-31_20211101/2021_10_31.mp3'
                   type='audio/mpeg'
                 >
                   Your browser does not support the audio element.
