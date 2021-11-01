@@ -33,7 +33,7 @@ export default function Header() {
       additionalLinkTags={[
         {
           rel: 'icon',
-          href: `${siteURL}/favicon.ico`,
+          href: `${siteURL}/favicons/favicon.ico`,
         },
         {
           rel: 'manifest',
