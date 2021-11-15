@@ -86,10 +86,10 @@ export default function Home() {
             <div
               className='flex-none h-64 overflow-hidden text-center bg-cover rounded-t lg:h-auto lg:w-96 lg:rounded-t-none lg:rounded-l'
               style={{
-                backgroundImage: `url(https://res.cloudinary.com/deprog/image/upload/c_scale,w_550/v1633624412/JOHN_gnnzs8.jpg)`,
+                backgroundImage: `url(https://res.cloudinary.com/deprog/image/upload/c_scale,w_400/v1635753638/thumbnail_psalms_dnxwby.jpg)`,
                 backgroundPosition: 'center',
               }}
-              title='Gospel of John poster'
+              title='Psalms poster'
             ></div>
             {/* RIGHT SIDE DIV */}
             <div className='flex flex-col justify-between p-4 leading-normal bg-white border-b border-l border-r rounded-b md:flex-grow lg:w-md border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light lg:rounded-b-none lg:rounded-r'>
@@ -101,14 +101,14 @@ export default function Home() {
                   {t('latest_title')}
                 </div>
                 <div className='mt-2 font-medium text-gray-600'>
-                  {t('OCTOBER')} 31, 2021
+                  {t('NOVEMBER')} 14, 2021
                 </div>
 
                 <audio
                   className='w-full mt-5'
                   controls='controls'
                   preload='metadata'
-                  src='https://archive.org/download/2021-10-31_20211101/2021_10_31.mp3'
+                  src='https://archive.org/download/2021-11-14_202111/2021_11_14.mp3'
                   type='audio/mpeg'
                 >
                   Your browser does not support the audio element.

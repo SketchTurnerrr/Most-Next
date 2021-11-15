@@ -34,7 +34,7 @@ export default function Footer() {
         {t('p1')}
         <span className='text-pink-300'>{t('love')}</span>
         {t('p2')}
-        <span className='text-pink-300'>{t('goodworks')}</span>. {t('p3')}
+        <span className='text-pink-300'>{t('goodworks')}</span>, {t('p3')}
         <span className='text-pink-300'>{t('meetings')}</span>, {t('p4')}
       </div>
     </div>

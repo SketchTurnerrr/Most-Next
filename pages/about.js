@@ -34,9 +34,9 @@ export default function About() {
       </div>
       <section className='max-w-3xl mx-auto'>
         <div>
-          <div className='text-4xl font-semibold text-center lg:my-5'>
+          <h2 className='px-2 text-4xl font-semibold text-center lg:my-5'>
             {t('DMP')}
-          </div>
+          </h2>
           <p className='p-5 mb-5 text-lg leading-relaxed text-gray-700 lg:p-0'>
             {t('p1')}
           </p>
@@ -46,92 +46,97 @@ export default function About() {
         </div>
       </section>
 
-      <div className='flex flex-wrap items-center justify-center my-10 text-lg font-semibold'>
-        <div className='items-center text-center'>
-          <img
-            className='w-40 m-2 mx-4 rounded-full h-42 lg:w-44 lg:h-44'
-            src='https://res.cloudinary.com/deprog/image/upload/c_scale,q_66,w_400/v1633629367/AdamLuba_strg7d.jpg'
-            alt='photo of Adam Luba and Tima'
-          />
-          <span>{t('A&L')}</span>
+      <section className='p-5'>
+        <h2 className='pt-5 text-4xl font-semibold text-center '>{t('LT')}</h2>
+        <div className='flex flex-wrap items-center justify-center my-10 text-lg font-semibold'>
+          <div className='items-center text-center'>
+            <img
+              className='w-40 m-2 mx-4 rounded-full h-42 lg:w-44 lg:h-44'
+              src='https://res.cloudinary.com/deprog/image/upload/c_scale,q_66,w_400/v1633629367/AdamLuba_strg7d.jpg'
+              alt='photo of Adam Luba and Tima'
+            />
+            <span>{t('A&L')}</span>
+          </div>
+          <div className='items-center text-center'>
+            <img
+              className='w-40 m-2 mx-4 rounded-full h-42 lg:w-44 lg:h-44'
+              src='https://res.cloudinary.com/deprog/image/upload/c_scale,w_400/v1633629883/Vika_srthqf.jpg'
+              alt='photo of Vika'
+            />
+            <span>{t('Vika')}</span>
+          </div>
+          <div className='items-center text-center'>
+            <img
+              className='w-40 m-2 mx-4 rounded-full h-42 lg:w-44 lg:h-44'
+              src='https://res.cloudinary.com/deprog/image/upload/v1633629359/Roma_bsaue8.jpg'
+              alt='photo of Roma'
+            />
+            <span>{t('Roma')}</span>
+          </div>
         </div>
-        <div className='items-center text-center'>
-          <img
-            className='w-40 m-2 mx-4 rounded-full h-42 lg:w-44 lg:h-44'
-            src='https://res.cloudinary.com/deprog/image/upload/c_scale,w_400/v1633629883/Vika_srthqf.jpg'
-            alt='photo of Vika'
-          />
-          <span>{t('Vika')}</span>
-        </div>
-        <div className='items-center text-center'>
-          <img
-            className='w-40 m-2 mx-4 rounded-full h-42 lg:w-44 lg:h-44'
-            src='https://res.cloudinary.com/deprog/image/upload/v1633629359/Roma_bsaue8.jpg'
-            alt='photo of Roma'
-          />
-          <span>{t('Roma')}</span>
-        </div>
-      </div>
+      </section>
+
       <section className='max-w-3xl p-5 mx-auto'>
         <div className='text-center'>
           <h1 className='text-4xl font-semibold'>{t('WHAT_WE_BELIEVE')}</h1>
         </div>
-        <div className='my-4 text-3xl font-semibold'>{t('SCRIPTURES')}</div>
+        <h3 className='my-4 text-3xl font-semibold'>{t('SCRIPTURES')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>
           {t('SCRIPTURES_P')}
         </p>
-        <div className='my-4 text-3xl font-semibold'>{t('GOD')}</div>
+        <h3 className='my-4 text-3xl font-semibold'>{t('GOD')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('GOD_P')}</p>
-        <div className='my-4 text-3xl font-semibold'>{t('JC')}</div>
+        <h3 className='my-4 text-3xl font-semibold'>{t('JC')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('JC_P')}</p>
-        <div className='my-4 text-3xl font-semibold'>{t('HS')}</div>
+        <h3 className='my-4 text-3xl font-semibold'>{t('HS')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('HS_P')}</p>
-        <div className='my-4 text-3xl font-semibold'>{t('HUMANITY')}</div>
+        <h3 className='my-4 text-3xl font-semibold'>{t('HUMANITY')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('HUMANITY_P')}</p>
-        <div className='my-4 text-3xl font-semibold'>{t('CHURCH')}</div>
+        <h3 className='my-4 text-3xl font-semibold'>{t('CHURCH')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('CHURCH_P')}</p>
-        <div className='my-4 text-3xl font-semibold'>{t('DISCIPLESHIP')}</div>
+        <h3 className='my-4 text-3xl font-semibold'>{t('DISCIPLESHIP')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>
           {t('DISCIPLESHIP_P')}
         </p>
-        <div className='my-4 text-3xl font-semibold'>{t('FUTURE')}</div>
+        <h3 className='my-4 text-3xl font-semibold'>{t('FUTURE')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('FUTURE_P')}</p>
 
-        <div className='w-3/4 pl-4 mx-auto bg-blue-100 border-l-4 border-blue-500 rounded'>
+        <div className='p-4 mx-auto mb-4 bg-blue-100 border-l-8 border-blue-500 rounded lg:w-3/4'>
           <p>{t('BLOCKQUOTE')}</p>
           <p className='pl-5'>{t('BLOCKQUOTE1')}</p>
           <p className='pl-5'>{t('BLOCKQUOTE2')}</p>
         </div>
       </section>
-      <div className='max-w-5xl mx-auto mt-10 text-3xl font-semibold text-center lg:text-4xl'>
-        {t('DISTINCTIVES')}
-      </div>
       <section className='max-w-3xl p-5 mx-auto'>
-        <div className='my-4 text-2xl font-semibold'>{t('D1')}</div>
+        <h2 className='max-w-5xl py-8 mx-auto text-3xl font-semibold text-center lg:text-4xl'>
+          {t('DISTINCTIVES')}
+        </h2>
+        <h3 className='my-4 text-2xl font-semibold'>{t('D1')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('D1P1')}</p>
-        <div className='my-4 text-2xl font-semibold'>{t('D2')}</div>
+        <h3 className='my-4 text-2xl font-semibold'>{t('D2')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('D2P1')}</p>
-        <div className='my-4 text-2xl font-semibold'>{t('D3')}</div>
+        <h3 className='my-4 text-2xl font-semibold'>{t('D3')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('D3P')}</p>
-        <div className='my-4 text-2xl font-semibold'>{t('D4')}</div>
+        <h3 className='my-4 text-2xl font-semibold'>{t('D4')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('D4P')}</p>
-        <div className='my-4 text-2xl font-semibold'>{t('D5')}</div>
+        <h3 className='my-4 text-2xl font-semibold'>{t('D5')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('D5P')}</p>
-        <div className='my-4 text-2xl font-semibold'>{t('D6')}</div>
+        <h3 className='my-4 text-2xl font-semibold'>{t('D6')}</h3>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('D6P1')}</p>
         <p className='w-full mb-10 text-lg text-gray-700'>{t('D6P2')}</p>
-        <div className='my-4 text-4xl font-bold'>{t('WHO_WE_ARE')}</div>
+
+        <h2 className='my-4 text-4xl font-bold'>{t('WHO_WE_ARE')}</h2>
         <p className='w-full mb-5 text-lg text-gray-700'>
           {t('WHO_WE_ARE_SUB')}
         </p>
         <p className='w-full mb-10 text-lg text-gray-700'>
           {t('WHO_WE_ARE_SUB1')}
         </p>
-        <div className='pl-4 mb-10 ml-5 border-l-8 border-blue-500'>
-          <p className='pl-2 font-bold'>{t('WHO_WE_ARE_SUB2')}</p>
-          <p className='pl-2 font-bold'>{t('WHO_WE_ARE_SUB3')}</p>
-          <p className='pl-2 font-bold'>{t('WHO_WE_ARE_SUB4')}</p>
-          <p className='pl-2 font-bold'>{t('WHO_WE_ARE_SUB5')}</p>
+        <div className='p-4 mx-auto bg-blue-100 border-l-8 border-blue-500 rounded lg:w-3/4'>
+          <p className='pb-3 pl-2'>{t('WHO_WE_ARE_SUB2')}</p>
+          <p className='pb-3 pl-2'>{t('WHO_WE_ARE_SUB3')}</p>
+          <p className='pb-3 pl-2'>{t('WHO_WE_ARE_SUB4')}</p>
+          <p className='pl-2'>{t('WHO_WE_ARE_SUB5')}</p>
         </div>
       </section>
     </Layout>
