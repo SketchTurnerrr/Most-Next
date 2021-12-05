@@ -101,14 +101,14 @@ export default function Home() {
                   {t('latest_title')}
                 </div>
                 <div className='mt-2 font-medium text-gray-600'>
-                  {t('NOVEMBER')} 14, 2021
+                  {t('DECEMBER')} 5, 2021
                 </div>
 
                 <audio
                   className='w-full mt-5'
                   controls='controls'
                   preload='metadata'
-                  src='https://archive.org/download/2021-11-14_202111/2021_11_14.mp3'
+                  src='https://archive.org/download/2021-12-05_202112/2021_12_05.mp3'
                   type='audio/mpeg'
                 >
                   Your browser does not support the audio element.
