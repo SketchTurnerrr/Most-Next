@@ -16,7 +16,7 @@ const Navbar = () => {
       <nav>
         <div className='px-4 py-3 mx-auto border-b border-blue-100 max-w-7xl sm:px-6 lg:px-8'>
           <div className='flex items-center justify-between h-16 '>
-            <div className='flex-shrink-0'>
+            <div className='shrink-0'>
               <Link href='/'>
                 <a className='text-xl font-bold lg:text-3xl'>{t('BC')}</a>
               </Link>

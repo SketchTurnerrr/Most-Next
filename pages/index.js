@@ -63,7 +63,7 @@ export default function Home() {
 
             {/* <--Google Map --> */}
 
-            <div className='md:flex-grow'>
+            <div className='md:grow'>
               <iframe
                 className='w-full my-8 md:my-0'
                 title='google map'
@@ -89,7 +89,7 @@ export default function Home() {
                 backgroundImage: `url(https://res.cloudinary.com/deprog/image/upload/c_scale,w_400/v1635753638/thumbnail_psalms_dnxwby.jpg)`,
                 backgroundPosition: 'center',
               }}
-              title='Psalms poster'
+              title='Thessalonians poster'
             ></div>
             {/* RIGHT SIDE DIV */}
             <div className='flex flex-col justify-between p-4 leading-normal bg-white border-b border-l border-r rounded-b md:flex-grow lg:w-md border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light lg:rounded-b-none lg:rounded-r'>
@@ -101,14 +101,14 @@ export default function Home() {
                   {t('latest_title')}
                 </div>
                 <div className='mt-2 font-medium text-gray-600'>
-                  {t('DECEMBER')} 5, 2021
+                  {t('JANUARY')} 23, 2022
                 </div>
 
                 <audio
                   className='w-full mt-5'
                   controls='controls'
                   preload='metadata'
-                  src='https://archive.org/download/2021-12-05_202112/2021_12_05.mp3'
+                  src='https://archive.org/download/2022-01-23_20220129/2022_01_23.mp3'
                   type='audio/mpeg'
                 >
                   Your browser does not support the audio element.

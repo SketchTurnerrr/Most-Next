@@ -10,11 +10,11 @@ const Track = ({ sermons }) => {
           className='max-w-md mx-6 mt-10 overflow-hidden bg-white shadow-md md:mx-auto rounded-xl md:max-w-4xl'
         >
           <div className='md:flex'>
-            <div className='md:flex-shrink-0'>
+            <div className='md:shrink-0'>
               <img
                 className='object-cover w-full h-48 md:w-48'
                 src={sermon.image}
-                alt='The Gospel of John'
+                alt='sermon cover'
               />
             </div>
             <div className='w-full p-4 md:mt-4'>
