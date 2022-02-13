@@ -7,7 +7,7 @@ const Track = ({ sermons }) => {
       {sermons.map((sermon) => (
         <div
           key={sermon.id}
-          className='max-w-md mx-6 mt-10 overflow-hidden bg-white shadow-md md:mx-auto rounded-xl md:max-w-4xl'
+          className='max-w-md mx-6 mt-10 overflow-hidden bg-white shadow-lg md:mx-auto rounded-xl md:max-w-4xl'
         >
           <div className='md:flex'>
             <div className='md:shrink-0'>
