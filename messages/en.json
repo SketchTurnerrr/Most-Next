@@ -1,0 +1,136 @@
+{
+  "Navbar": {
+    "BC": "Bridge Church",
+    "ministries": "Ministries",
+    "about": "About",
+    "listen": "Listen"
+  },
+
+  "LocaleSwitcher": {
+    "uk": "Українська",
+    "en": "English",
+    "label": "Language"
+  },
+  "Home": {
+    "EFCU": "Evangelical Free Church of Ukraine",
+    "description": "Love God, Love People, Be More Like Jesus",
+    "latest": "Latest Sermon",
+
+    "JANUARY": "January",
+    "FEBRUARY": "February",
+    "MARCH": "March",
+    "APRIL": "April",
+    "MAY": "May",
+    "JUNE": "June",
+    "JULY": "July",
+    "AUGUST": "August",
+    "SEPTEMBER": "September",
+    "OCTOBER": "October",
+    "NOVEMBER": "November",
+    "DECEMBER": "December",
+
+    "latest_title": "What is God's Love?",
+
+    "WHERE": "Where",
+    "WHERE_ADDRESS": "Khartsyzka St, 190, Kryvyi Rih",
+    "WHEN": "When",
+    "EVERY_SUNDAY": "Every Sunday at 11AM",
+    "CONTACT": "Contact Us"
+  },
+  "Footer": {
+    "p1": "And let us take thought of how to spur one another on to ",
+    "love": "love",
+    "p2": " and ",
+    "goodworks": "good works",
+    "p3": " not abandoning our own ",
+    "meetings": "meetings",
+    "p4": " as some are in the habit of doing, but encouraging each other, and even more so because you see the day drawing near.",
+    "BC": "Bridge Church",
+    "home": "Home",
+    "about": "About",
+    "listen": "Listen",
+    "ministries": "Ministries"
+  },
+  "Ministries": {
+    "TBS": "Home Group",
+    "SUNDAY_SERV": "Sunday Gathering",
+    "EC": "English club",
+    "SUNDAY_SCHOOL": "Sunday School",
+    "YOUTH": "Youth",
+    "ministries": "Ministries",
+
+    "SUNDAY_P": "Each Sunday we gather as the family of God, the body of Christ honor Him and worship Him through reading Scripture, singing of praise, praying together, studying God’s Word together eating and fellowshipping together. Through these activities seek to one another in our faith so we will stay faithful to Christ and be good witnesses for Him in the world during week.",
+
+    "TUESDAY_P": "In preparation for this time each one is asked to study the Bible individually at home. Then on Tuesday we discuss together what we've read and look for answers to the questions that arise from the Scripture. Fellowship, games, studying the Bible, tea and cookies - all of this help us to maintain our relationships during the week.",
+
+    "ENGCLUB_P": "Every Saturday the Porters lead English club at their place. Different people of different ages get together with one goal - to learn English which is essential nowadays. Grammar, games, conversations and Bible study over tea and cookies.",
+
+    "SUNDAY_SCHOOL_P": "During the worship service, we have Sunday School classes for children of all ages. The kids have an opportunity to listen to a Bible story, do a craft, play some interesting games and spend fun time with their friends.",
+
+    "YOUTH_P": "We focus special time and energy on encouraging, helping, teaching and guiding young people, so they can learn more about God and how to serve people in order for God's will to be fulfilled in their lives."
+  },
+  "About": {
+    "JACK_ANYA": "Zhenya and Anya",
+    "JACK_ANYA_P": "At the beginning of the full-scale russian invasion of Ukraine, most of the parishioners left the country. Only a few church members remained. But on April 21, 2022, Pastor Yura Ivakhnenko came to us with a team from Kramatorsk (Zhenya, Roman and Alina), who, in fact, saved the church from closure and became an integral part of our church. Later, on December 4, 2022, Zhenya was appointed pastor of the church.",
+    "EVANGELIZATION_P": "After some time, the team started to hold evangelistic services, where people heard the Gospel and received a small humanitarian aid. The church continues to serve in the war conditions thanks to God's mercy and grace.",
+    "BEFORE_FEBRUARY_24": "Before February 24, 2022",
+    "about": "About Us",
+    "DMP": "Daryl & Molly Porter",
+    "p1": "Our pastor is Daryl Porter. He and his wife Molly are missionaries from Canada. The Porters have lived in Ukraine since 2000 and in Kryvyi Rih since 2012. They have two adult children and five grand children. One of the main goals of them living in Ukraine is to establish new Evangelical free churches and help them to grow. Daryl is also the Area Director for all of the EFCCM (Evangelical Free Church of Canada Mission) missionaries serving in Europe. During the year (October-May) the Porters lead an English club at their place. In the summer they also organize and teach at a 3-week Summer English Institute.",
+
+    "p2": "It needs to be mentioned that Daryl's main hobby is running. All of his life he has run marathons and half marathons. It helps him to discipline himself not only physically, but also spiritually. How? Because in a very real sense our spiritual life is a race: we are running, get tired, fall, want to quit but get up and keep running until we see the finish line. We keep our eyes on Jesus who ran the race before us. He never stopped even though the way was hard. So we too should keep going just like He did.",
+
+    "LT": "Leadership Team",
+    "WHAT_WE_BELIEVE": "What We Believe",
+    "OUR_SF": "Our Statements of Faith",
+    "SCRIPTURES": "Scriptures",
+    "SCRIPTURES_P": "We believe that all Scripture is God-breathed and is the complete revelation of God's will for the salvation of men, as well as the divine infallible and final authority for Christian faith and life.",
+    "GOD": "God",
+    "GOD_P": "We believe in one God, the Almighty, the Creator of all things visible and invisible, perfect and eternally existing in three persons - Father, Son and Holy Spirit.",
+    "JC": "Jesus Christ",
+    "JC_P": "We Believe in Jesus Christ, the Son of God, one essence with the Father, true God and true man. According to the prophecies, He was conceived by the Holy Spirit, born of the Virgin Mary, he lived a sinless life and died on the cross, a sacrifice for the sins of all mankind; on the third day He rose bodily from the dead, ascended into heaven, sits at the right hand of the Father, he is our only mediator, intercedes for us and is coming in glory.",
+    "HS": "Holy Spirit",
+    "HS_P": "We believe in the Holy Spirit, the same essence as the Father and the Son, in His personality and divinity. He convicts and regenerates sinners. And all the believers in Christ, the Spirit empowers for godly living and sevice, as well as teaches, sanctifies, guides, unifies and gives them gifts for building the church. We believe in the baptism of the Holy Spirit, which occurs at the moment of birth.",
+    "HUMANITY": "Humanity",
+    "HUMANITY_P": "We believe that humanity was created in the image of God, but sinned and is spiritually dead and the enemy of God. Renewal and reconciliation are possible only by grace through faith, with the assistance of the Holy Spirit on the basis of the death and resurrection of Jesus Christ.",
+    "CHURCH": "Church",
+    "CHURCH_P": "We believe that Jesus Christ is the Head of the Church, which is composed of born-again believers. The Church should observe the ordinances of baptism and the Lord's Supper.",
+    "DISCIPLESHIP": "Discipleship",
+    "DISCIPLESHIP_P": "We believe that Jesus Christ conquered death, sin and Satan and called every believer to a holy way of life, and of resisting evil.",
+    "FUTURE": "Future",
+    "FUTURE_P": "We believe in the second coming of Jesus Christ, in the judgment of people and the bodily resurrection of the dead, in eternal bliss with the Lord for believers and eternal punishment for unbelievers.",
+    "BLOCKQUOTE": "Purposes for writing this Statement of Faith:",
+    "BLOCKQUOTE1": "To show who we are.",
+    "BLOCKQUOTE2": "To protect us from heresy.",
+
+    "DISTINCTIVES": "Distinctives of the Evangelical Free Church of Ukraine",
+    "D1": "EFCU membership consists of those who have a personal faith in Jesus Christ",
+    "D1P1": "As part of the great heritage of Evangelical Free Churches in the world is the fact that the possibility of Christian fellowship and ministry in the local church is based solely on the individual's personal faith in Jesus Christ as Savior and Lord and trusting Him alone in relation to their salvation.",
+    "D1P2": "For membership, a person needs to agree with sound doctrine, which is expressed in our creed. At the same time, people are not deprived of the opportunity to become a member of a local church, if he or she has a different point of view in the secondary doctrinal matters not mentioned in Creed. Inside the EFCU there is the possibility of robust differences in the understanding of certain aspects of the Christian faith.",
+    "D2": "EFCU is not seeking isolation",
+    "D2P1": "We have the firm conviction that the teachings and way of life of Christians should be based on the authority of God's Word. This is important for us that minor doctrinal issues did not become an obstacle for communication, firstly, within the local church. Secondly, we chose to be open to dialogue with a broad spectrum of Christians from other denominations that adhere to basic Bible doctrines.",
+    "D2P2": "Regarding our way of life in the world, we believe in the need for personal holiness and that we should not live according to the world standards. However, we are not separatists, and,thirdly do not isolate ourselves from fellowship with those who do not believe and do not live as we do, but try to make our faith in Christ visible to them.",
+    "D3": "EFCU adheres to the spriritual rather than the structural unity of the church",
+    "D3P": "We believe in the spiritual unity of the universal Church, but we do not support the movement for the unification of the Church in a single structure. We can cooperate with other Christian denominations and parachurch organizations that have similar goals, beliefs, and ministry, but we believe that there is strength in diversity and that it is important to maintain our distinctive features. We are convinced that the structural unity does not guarantee the unity of the Spirit.",
+    "D4": "EFCU believes in Christian freedom with responsibility",
+    "D4P": "We believe in Christian freedom, but freedom always has its limitations. Responsible Christians do not abuse freedom. The apostle Paul wrote convincingly about Christian freedom in Galatians. He crushes the legalists with the doctrine of grace. But in the first and second Corinthians, as well as in Romans the Apostle also rebukes the believers for the abuse of freedom. He boldly proclaims the principles of Christian freedom, but at the same time, with equal urgency emphasizes the importance of Christian responsibility. The EFCU wants to save freedom in Christ for every believer. We encourage our members and attenders to be responsible and godly people who live under the control of the Holy Spirit, and in obedience to the principles and precepts of God's word.",
+    "D5": "EFCU believes in the importance of both mind and heart of Christianity",
+    "D5P": "We believe that Scripture must be accepted and applied in every Christian's life with an open mind and heart. That is, we are convinced that it is essential to have a solid biblical foundation in the doctrinal understanding of our faith, but it is equally important to have a dynamic, living fellowship with God through His Son Jesus Christ and to live by the power of the Holy Spirit. Christian doctrine must be firmly connected with dynamic Christian experience.",
+    "D6": "EFCU is a congregational form of governance",
+    "D6P1": "EFCU is committed to a congregational form of government. This means that every local church has the right to manage their own affairs. At the same time, the highest human authority in the local church is the collective will of the community. We believe that a strong pastoral leadership, coupled with mature, servant Christians, creates prerequisites for significant spiritual and numerical growth of the local church.",
+    "D6P2": "While the EFCU asserts the right of every local church to manage their affairs, it also supports biblical values of interdependence and cooperation. We are a Church movement committed to working together to fulfill the Great Commission in Ukraine and abroad. This is only possible if there are strong links between local churches in the EFCU.",
+    "WHO_WE_ARE": "Who We Are",
+    "WHO_WE_ARE_SUB": "We are an Evangelical Free Church and part of the Evangelical Free Church of Ukraine Association. Our roots come from the Evangelical Free Church of Canada.",
+    "WHO_WE_ARE_SUB1": "Our purpose is very simple. We desire to fulfil what the Scriptures call us to be:",
+    "WHO_WE_ARE_SUB2": "To love the Lord God above all else",
+    "WHO_WE_ARE_SUB3": "To draw people to Jesus Christ, the one true source of forgiveness, of peace with God, of eternal life, of purpose in this life.",
+    "WHO_WE_ARE_SUB4": "To love people the way Christ has loved us",
+    "WHO_WE_ARE_SUB5": "To become mature disciples of Jesus Christ",
+    "A&L": "Adam & Luba",
+    "Vika": "Vika",
+    "Roma": "Roma"
+  },
+  "Listen": {
+    "listen": "Sunday sermons"
+  }
+}
