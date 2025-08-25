@@ -7,8 +7,14 @@ export default function About() {
     <div>
       <section className="max-w-3xl space-y-8 flex flex-col items-center justify-center p-5 mx-auto">
         <h2 className="text-4xl font-semibold">{t('JACK_ANYA')}</h2>
-        <div className="flex gap-6 ">
-          <Image src="/sergeevs.jpg" alt="Daryl" width={450} height={450} />
+        <div className="flex flex-col lg:flex-row gap-6 ">
+          <Image
+            src="/sergeevs.jpg"
+            alt="Daryl"
+            width={450}
+            height={450}
+            className="mx-auto"
+          />
           <div className="flex flex-col gap-2">
             <p className="text-lg leading-relaxed ">{t('JACK_ANYA_P')}</p>
           </div>
