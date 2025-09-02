@@ -300,7 +300,7 @@ export function AudioPlayer({
             style={{ width: `${progressPercent}%` }}
           />
         </div>
-        {formatTime(state_duration)}
+        {formatTime(duration / 1000)}
       </div>
     </div>
   );
