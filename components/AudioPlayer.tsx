@@ -39,7 +39,6 @@ export function AudioPlayer({
   const progressRef = React.useRef<HTMLDivElement | null>(null);
   const volumeRef = React.useRef<HTMLDivElement | null>(null);
 
-  console.log('duration :', duration);
   React.useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
@@ -110,7 +109,9 @@ export function AudioPlayer({
   function skipBy(seconds: number) {
     const audio = audioRef.current;
     if (!audio) return;
-    seekTo(Math.min(Math.max(0, audio.currentTime + seconds), duration || 0));
+    seekTo(
+      Math.min(Math.max(0, audio.currentTime + seconds), state_duration || 0)
+    );
   }
 
   function toggleMute() {
@@ -122,20 +123,20 @@ export function AudioPlayer({
 
   const VolumeIcon = muted || volume === 0 ? VolumeX : Volume1;
   const progressPercent = React.useMemo(() => {
-    if (!duration) return 0;
-    return Math.min(100, Math.max(0, (currentTime / duration) * 100));
-  }, [currentTime, duration]);
+    if (!state_duration) return 0;
+    return Math.min(100, Math.max(0, (currentTime / state_duration) * 100));
+  }, [currentTime, state_duration]);
 
   function handleProgressPointerDown(e: React.PointerEvent<HTMLDivElement>) {
     const el = progressRef.current;
-    if (!el || !duration) return;
+    if (!el || !state_duration) return;
     setIsSeeking(true);
 
     const updateFromClientX = (clientX: number) => {
       const rect = el.getBoundingClientRect();
       const x = Math.min(Math.max(0, clientX - rect.left), rect.width);
       const ratio = rect.width ? x / rect.width : 0;
-      const newTime = ratio * duration;
+      const newTime = ratio * state_duration;
       setCurrentTime(newTime);
       if (audioRef.current) audioRef.current.currentTime = newTime;
     };
@@ -154,7 +155,7 @@ export function AudioPlayer({
   }
 
   function onProgressKeyDown(e: React.KeyboardEvent<HTMLDivElement>) {
-    if (!duration) return;
+    if (!state_duration) return;
     if (e.key === 'ArrowLeft') {
       e.preventDefault();
       skipBy(-5);
@@ -166,7 +167,7 @@ export function AudioPlayer({
       seekTo(0);
     } else if (e.key === 'End') {
       e.preventDefault();
-      seekTo(duration);
+      seekTo(state_duration);
     }
   }
 
@@ -290,7 +291,7 @@ export function AudioPlayer({
           role="slider"
           aria-label="Seek"
           aria-valuemin={0}
-          aria-valuemax={duration || 0}
+          aria-valuemax={state_duration || 0}
           aria-valuenow={currentTime}
           tabIndex={0}
         >
@@ -299,7 +300,7 @@ export function AudioPlayer({
             style={{ width: `${progressPercent}%` }}
           />
         </div>
-        {formatTime(duration / 1000)}
+        {formatTime(state_duration)}
       </div>
     </div>
   );
